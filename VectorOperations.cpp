@@ -341,9 +341,3 @@ std::string base_ten(std::vector<u64> digits) {
 
 
 
-int main() {
-    std::vector<u64> u0 = {7};
-    std::vector<u64> v0 = power(u0, 1000);
-    std::cout << base_ten(v0);
-}
-
